@@ -1,0 +1,112 @@
+    #game{
+        width: 480px;
+        height: 480px;
+        margin-left: -300px; 
+        margin-top: -241px;
+        position: absolute;
+        left:50%;
+        top:50%;
+        background-color: #ccc;
+    }
+
+    #board{
+        width: 85%;
+        height: 85%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -205px; 
+        margin-top: -205px;
+        background-color: #fff;
+    }
+
+    .cordinates{
+        font-size: 20px;
+        word-spacing: 35px;
+    }
+
+    .left{
+        width: 1%;
+        height: 100%;
+        position: absolute;
+        left:0px;
+        margin: 20px 5px;
+        line-height: 55px;
+        
+    }
+
+    .right{
+        width: 1%;
+        height: 100%;
+        position: absolute;
+        right:0px;
+        margin: 20px 10px;
+        line-height: 55px;
+    }
+
+    .up{
+        position: absolute;
+        top:0px;
+        margin: 5px 20px 5px 43px;
+    }
+
+    .down{
+        position: absolute;
+        bottom:0px;
+        margin: 5px 20px 5px 43px;
+    }
+
+    
+    .step{
+        width: 51.015px;
+        height: 50.956px;
+        float: left;
+    }
+
+    .white{
+        background-color: white;
+    }
+
+    
+    .black{
+        background-color: #ccc;
+    }
+
+    .piece{
+        width:100%;
+        height: 100%;
+        background-image: url('../images/pieces.png');
+        background-size: 700%; 
+        z-index:2;
+    }
+
+    .turn{
+        position: absolute;
+        left:42%;
+        top:12%;
+        text-transform: capitalize;
+    }
+
+    .scoreBoard{
+        position: absolute;
+        left:62.8%;
+        top:19.8%;
+
+    }
+
+    .scoreBoard th, .scoreBoard td{
+        padding: 7px;
+    }
+
+    .endScreen{
+        width: 480px;
+        height: 480px;
+        margin-left: -300px; 
+        margin-top: -241px;
+        position: absolute;
+        left:50%;
+        top:50%;
+        background-color: #ccc;
+        text-transform: capitalize;
+    }
+    

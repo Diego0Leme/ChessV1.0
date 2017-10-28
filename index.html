@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Chess!</title>
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h3 class="turn"><span id="turn">White</span>'s Turn!</h3>
+    <div id="game">
+        <div class="cordinates left">1 2 3 4 5 6 7 8</div>
+        <div class="cordinates right">1 2 3 4 5 6 7 8</div>
+        <div class="cordinates up">A B C D E F G H</div>
+        <div class="cordinates down">A B C D E F G H</div>
+        <div id="board"></div>
+    </div>
+    <div class="scoreBoard">
+        <table border="1px" style="border-collapse : collapse">
+            <thead>
+                <th></th>
+                <th>Pieces</th>
+                <th>Pawns</th>
+                <th>Rooks</th>
+                <th>Knights</th>
+                <th>Bishops</th>
+                <th>Queens</th>
+                <th>Kings</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Black</td>
+                    <td id="black-pieces"></td>
+                    <td id="black-pawns"></td>
+                    <td id="black-rooks"></td>
+                    <td id="black-knights"></td>
+                    <td id="black-bishops"></td>
+                    <td id="black-queens"></td>
+                    <td id="black-kings"></td>
+                </tr>
+                <tr>
+                    <td>White</td>
+                    <td id="white-pieces"></td>
+                    <td id="white-pawns"></td>
+                    <td id="white-rooks"></td>
+                    <td id="white-knights"></td>
+                    <td id="white-bishops"></td>
+                    <td id="white-queens"></td>
+                    <td id="white-kings"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/game-elements.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
